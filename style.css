@@ -25,9 +25,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 0;
+    padding: 0px 100px;
 
 }
 
@@ -35,8 +33,69 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 50px 100px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9faf8;
+    padding: 0px 50px 100px;
+    
+}
+
+.info-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    padding: 50px 100px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+    padding: 50px 100px;
+}
+
+.cta-banner {
+    background: #3882f6;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0px 40px;
+}
+
+.cta-text {
+    background: #3882f6;
+    padding: 0px 0px 40px 40px;
+    color: #e5e7eb
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 16px;
+}
 
 h1 {
     color: #f9faf8;
@@ -53,6 +112,7 @@ h2 {
 h3 {
     font-size: 24px;
     color: #f9faf8;
+    padding: 0;
 }
 
 h4 {
